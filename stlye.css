@@ -71,7 +71,7 @@ a{
 
 #RUB-Motorsport:hover {
     /* color:blue; */
-    tranisiton: 0.5s;
+    transition: 0.5s;
 }
 
 #text:has(.Logo:hover) .word:not(.Logo) {
