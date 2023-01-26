@@ -15,39 +15,7 @@ a{
     text-transform: uppercase;
 }
 
-@font-face {
-    font-family: mst;
-    src: url(mst.ttf);
-    font-family: 'Roboto', sans-serif;
-  }
 
-.accordion {
-    background-color: #121824;
-    color: #fefefe;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 20px;
-    transition: 0.4s;
-  }
-
-.active,
-          .accordion:hover {
-            background-color: #121824;
-          }
-
-
-.panel {
-    padding: 0 18px;
-    display: none;
-    background-color: #121824;
-    color: #fefefe;
-    overflow: hidden;
-    font-size: 15px;
-  }
 
 .line {
         display:flex ;
@@ -167,3 +135,40 @@ svg:hover {
 .fancy:hover > .letter:nth-child(14) {
     transform: translate(80%, 30%) rotate(10deg);
 }
+
+
+
+
+@font-face {
+    font-family: mst;
+    src: url(mst.ttf);
+    font-family: 'Roboto', sans-serif;
+  }
+
+.accordion {
+    background-color: #121824;
+    color: #fefefe;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+
+.active,
+          .accordion:hover {
+            background-color: #121824;
+          }
+
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #121824;
+    color: #fefefe;
+    overflow: hidden;
+    font-size: 15px;
+  }
